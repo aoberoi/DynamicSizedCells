@@ -19,6 +19,7 @@
 		92906F5817DE2F9B00DF70D0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92906F5617DE2F9B00DF70D0 /* MainStoryboard.storyboard */; };
 		92906F5B17DE2F9B00DF70D0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92906F5A17DE2F9B00DF70D0 /* MasterViewController.m */; };
 		92906F5E17DE2F9B00DF70D0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92906F5D17DE2F9B00DF70D0 /* DetailViewController.m */; };
+		92906F6617DE450200DF70D0 /* DSCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92906F6517DE450200DF70D0 /* DSCTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		92906F5A17DE2F9B00DF70D0 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		92906F5C17DE2F9B00DF70D0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		92906F5D17DE2F9B00DF70D0 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		92906F6417DE450200DF70D0 /* DSCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSCTableViewCell.h; sourceTree = "<group>"; };
+		92906F6517DE450200DF70D0 /* DSCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSCTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				92906F5A17DE2F9B00DF70D0 /* MasterViewController.m */,
 				92906F5C17DE2F9B00DF70D0 /* DetailViewController.h */,
 				92906F5D17DE2F9B00DF70D0 /* DetailViewController.m */,
+				92906F6417DE450200DF70D0 /* DSCTableViewCell.h */,
+				92906F6517DE450200DF70D0 /* DSCTableViewCell.m */,
 				92906F4517DE2F9B00DF70D0 /* Supporting Files */,
 			);
 			path = DynamicSizedCells;
@@ -182,6 +187,7 @@
 				92906F4F17DE2F9B00DF70D0 /* AppDelegate.m in Sources */,
 				92906F5B17DE2F9B00DF70D0 /* MasterViewController.m in Sources */,
 				92906F5E17DE2F9B00DF70D0 /* DetailViewController.m in Sources */,
+				92906F6617DE450200DF70D0 /* DSCTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
